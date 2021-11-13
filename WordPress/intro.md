@@ -1,0 +1,1 @@
+In this scenario, you will learn how to create your Wordpress application with Woocommerce plugin enabled. This scenario will also provide guide on setting up sample products, customer/transaction data and user accounts.
