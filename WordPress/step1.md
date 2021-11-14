@@ -4,6 +4,8 @@ To create a docker-compose file, run the following command:
 
 `touch docker-compose.yml`{{execute}}
 
+Click this button to open the docker-compose file:
+
 `docker-compose.yml`{{open}}
 
 Enter the template into the docker-compose file:
@@ -37,6 +39,10 @@ services:
         - mysql-server
 ```{{copy}}
 
-The docker-compose file specify the port, environment configuration and image for each container. To run docker compose:
+The docker-compose file specify the port, environment configuration and image for each container. To run docker compose, run the following command:
 
 `docker-compose up`{{execute}}
+
+In Katacoda, visit the WordPress website:
+
+https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com/
