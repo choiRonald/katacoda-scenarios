@@ -1,6 +1,6 @@
 ## Privilege Abuse
 
-It is known as abusing privilegs when a user misuses privilegs granted to them. To prevent user abuse privileges to access senitive data, appropriate access control should be done.
+It is known as abusing privilegs when a user misuses privilegs granted to them(Internal attack). To prevent user abuse privileges to access senitive data, appropriate access control should be done.
 
 Access control could be done on Database and Woocommerce.
 
