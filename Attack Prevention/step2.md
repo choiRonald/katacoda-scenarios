@@ -1,4 +1,4 @@
-## Privilege Abuse
+## Privilege Abuse & Excessive privileges
 
 It is known as abusing privilegs when a user misuses privilegs granted to them(Internal attack). To prevent user abuse privileges to access senitive data, appropriate access control should be done.
 

@@ -1,4 +1,4 @@
-## Privilege Abuse (Continue)
+## Privilege Abuse & Excessive privileges (Continue)
 
 ## MySQL encryption
 Besides access Control and Account Management in database,we could also encrypt data at rest by using the folling command:

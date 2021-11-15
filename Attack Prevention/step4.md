@@ -1,4 +1,4 @@
-## Privilege Abuse (Continue)
+## Privilege Abuse & Excessive privileges (Continue)
 
 ## Wordpress Access control and Account management
 On wordpress, different account role have different access right. To create different account for different team, navigate to the **User** section, **Add New**.

@@ -43,3 +43,7 @@ When you lock out of your current session and login again, the site will require
 ![2fa1](./assets/2fa1.png)
 
 ![2fa2](./assets/2fa2.png)
+
+We could also see if someone has tried to brute force attack our website using the **Dashboard**.
+
+![bruteforce](./assets/bruteforce.png)
