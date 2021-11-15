@@ -47,4 +47,3 @@ In our case, operation should not have access to the wp_users tables as it conta
 `revoke all on wordpress.wp_wc_customer_lookup 'oper'@'localhost';`{{execute}}
 
 
-
