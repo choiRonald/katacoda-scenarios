@@ -33,3 +33,18 @@ Different privileges should be grant to these accounts. For example, operation t
 On the other hand, the sales team should not have such privileges, the sales team should not have the privileges to access customer PII and alter tables. Therefore, one of the privileges that could be grant to the sales team is:
 
 `grant select on wordpress.wp_comments to 'sales'@'localhost';`{{execute}}
+
+To review privileges granted to an account use the following command:
+
+`show grants for 'oper'@'localhost';`{{execute}}
+
+If an account has exceesive access right, we could use this command to revoke the right: 
+
+`revoke all on object 'sample'@'localhost';`{{copy}}
+
+In our case, operation should not have access to the wp_users tables as it contains customer's PII. Therefore, we could revoke this right by using the command above:
+
+`revoke all on wordpress.wp_wc_customer_lookup 'oper'@'localhost';`{{execute}}
+
+
+
