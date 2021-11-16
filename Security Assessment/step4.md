@@ -21,7 +21,7 @@ In this step, we will try to discover the sensitive data stored in the mySQL ser
 Example 1. Find out the user data in in the 'wp_users' table
 
 `select * from wp_users;`{{execute}}
-![user](./assets/picture18.png)
+![user](./assets/Picture18.png)
 
 As we can see, sensitive data like:
 
@@ -39,9 +39,9 @@ These data are created and stored when we **created a sample customer account** 
 Example 2. Find out the user data in in the 'wp_usermeta' table
 
 `select * from wp_usermeta;`{{execute}}
-![meta1](./assets/picture19.png)
-![meta2](./assets/picture20.png)
-![meta3](./assets/picture21.png)
+![meta1](./assets/Picture19.png)
+![meta2](./assets/Picture20.png)
+![meta3](./assets/Picture21.png)
 
 As we can see, sensitive data like:
 
@@ -63,7 +63,7 @@ These data are created and stored when we:
 Example 3. Find out the user data in in the 'wp_comments' table
 
 `select * from wp_comments;`{{execute}}
-![comments](./assets/picture22.png)
+![comments](./assets/Picture22.png)
 
 As we can see, sensitive data like:
 

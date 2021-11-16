@@ -10,15 +10,15 @@ Going to 'Shop', select the product and scroll down to find the review section.
 
 Give a review and then submit it.
 
-![review1](./assets/picture2.png)
+![review1](./assets/Picture2.png)
 
-![review2](./assets/picture7.png)
+![review2](./assets/Picture7.png)
 
 
 2. Leave a comment for the sample post
 
 Go to 'Home' and clicked on the 'Hello world!' post.
-![post1](./assets/picture8.png)
+![post1](./assets/Picture8.png)
 
 Click on 'Comment' to leave and post a comment for the post.
-![post2](./assets/picture9.png)
+![post2](./assets/Picture9.png)
