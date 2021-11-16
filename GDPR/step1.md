@@ -2,14 +2,15 @@ There are two ways to run Wordpress in docker, by using command line or using do
 
 To create a docker-compose file, run the following command:
 
-touch docker-compose.yml
+`touch docker-compose.yml`{{execute}}
 
 Click this button to open the docker-compose file:
 
-docker-compose.yml
+`docker-compose.yml`{{open}}
 
 Enter the template into the docker-compose file:
 
+```sh
 version: '3.2'
 services:
     mysql-server:
@@ -36,9 +37,11 @@ services:
         WORDPRESS_DB_PASSWORD: secret
       depends_on:
         - mysql-server
+```{{copy}}
+
 The docker-compose file specify the port, environment configuration and image for each container. To run docker compose, run the following command:
 
-docker-compose up -d
+`docker-compose up -d`{{execute}}
 
 In Katacoda, visit the WordPress website:
 
